@@ -1,3 +1,44 @@
 Schmidt, Tobias
 Gorno, Rodrigo
 Cespedes, Carmen
+
+e:
+
+1.BETA crea el repositorio en GitHub con el archivo README y fork.txt.
+
+2.GAMMA forkea a travez de la interfaz web de github.
+    
+    git clone https://github.com/rodrigogorno/TP_SO_i2_Equipo103
+    cd TP_SO_i2_Equipo
+
+3.GAMMA edita el fork:
+    nano fork.txt
+    git add fork.txt
+    git commit -m "."
+    git push origin main
+
+4.ALFA forkea a travez de la interfaz web de github.
+    git clone https://github.com/TobiasSCHM/TP_SO_i2_Equipo103.git
+    cd TP_SO_i2_Equipo
+5.ALFA edita el fork:
+    nano fork.txt
+    git add fork.txt
+    git commit -m "Update fork.txt"
+    git push origin main
+
+6.BETA crea el archivo NuevoDato.txt en su repositorio.
+    echo "" > NuevoDato.txt
+    git add NuevoDato.txt
+    git commit -m "Creado NuevoDato.txt por BETA"
+    git push origin main
+
+7.GAMMA y ALFA sincronizan su repositorio con el de BETA.
+    git remote add upstream https://github.com/BETA/TP_SO_i2_Equipo.git
+    git fetch upstream
+    git checkout main
+    git merge upstream/main
+    git push origin main
+    nano respuesta_I2_EquipoX.txt
+    git add respuesta_I2_EquipoX.txt
+    git commit -m "."
+    git push origin main
