@@ -1,3 +1,7 @@
 Schmidt, Tobias
 Gorno, Rodrigo
 Cespedes, Carmen
+
+c : Si, GAMMA debe sincronizar su fork con el repositorio de ALFA.
+
+d : No se pierden los cambios al actualizar el fork
