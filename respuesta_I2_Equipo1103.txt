@@ -2,6 +2,11 @@ Schmidt, Tobias
 Gorno, Rodrigo
 Cespedes, Carmen
 
+
+c : Si, GAMMA debe sincronizar su fork con el repositorio de ALFA.
+
+d : No se pierden los cambios al actualizar el fork
+
 e:
 
 1.BETA crea el repositorio en GitHub con el archivo README y fork.txt.
@@ -42,3 +47,5 @@ e:
     git add respuesta_I2_EquipoX.txt
     git commit -m "."
     git push origin main
+
+
